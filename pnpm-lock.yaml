@@ -7,8 +7,6 @@ settings:
 importers:
 
   .:
-  - name: Attest Build Provenance
-  uses: actions/attest-build-provenance@v2.2.3
     dependencies:
       '@ai-sdk/react':
         specifier: ^1.2.8
